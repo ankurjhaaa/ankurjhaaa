@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 150" width="100%" height="150" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="footer-bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E3A8A" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#footer-bg)" />
+  <path d="M0,50 C150,100 350,0 500,50 C650,100 800,50 800,50 L800,150 L0,150 Z" fill="#2563EB" opacity="0.3">
+    <animate attributeName="d" values="M0,50 C150,100 350,0 500,50 C650,100 800,50 800,50 L800,150 L0,150 Z; M0,50 C150,0 350,100 500,50 C650,0 800,50 800,50 L800,150 L0,150 Z; M0,50 C150,100 350,0 500,50 C650,100 800,50 800,50 L800,150 L0,150 Z" dur="10s" repeatCount="indefinite" />
+  </path>
+  <path d="M0,70 C200,120 400,20 600,70 C700,95 800,70 800,70 L800,150 L0,150 Z" fill="#0F172A">
+    <animate attributeName="d" values="M0,70 C200,120 400,20 600,70 C700,95 800,70 800,70 L800,150 L0,150 Z; M0,70 C200,20 400,120 600,70 C700,45 800,70 800,70 L800,150 L0,150 Z; M0,70 C200,120 400,20 600,70 C700,95 800,70 800,70 L800,150 L0,150 Z" dur="12s" repeatCount="indefinite" />
+  </path>
+  <text x="400" y="120" font-family="Inter, sans-serif" font-size="12" font-weight="300" fill="#FFFFFF" text-anchor="middle" opacity="0.5">Engineered with Precision</text>
+</svg>

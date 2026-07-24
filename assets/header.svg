@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;800&amp;display=swap');
+      .title { font-family: 'Inter', sans-serif; font-size: 48px; font-weight: 800; fill: #FFFFFF; }
+      .subtitle { font-family: 'Inter', sans-serif; font-size: 18px; font-weight: 300; fill: #A0AEC0; }
+      .accent { fill: #2563EB; }
+      .glass { fill: rgba(255, 255, 255, 0.03); stroke: rgba(255, 255, 255, 0.1); stroke-width: 1px; backdrop-filter: blur(10px); }
+    </style>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="50%" stop-color="#1E3A8A" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="glass-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="300" fill="url(#bg-grad)">
+    <animate attributeName="opacity" values="0.9;1;0.9" dur="5s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Abstract Tech Geometry (Secular & Modern) -->
+  <circle cx="650" cy="150" r="100" fill="none" stroke="#2563EB" stroke-width="2" opacity="0.3" filter="url(#glow)">
+    <animateTransform attributeName="transform" type="scale" values="0.95;1.05;0.95" dur="6s" repeatCount="indefinite" additive="sum"/>
+  </circle>
+  
+  <!-- Glassmorphism Card -->
+  <rect x="50" y="50" width="700" height="200" rx="16" class="glass" filter="url(#glass-shadow)" />
+
+  <text x="90" y="125" class="title">Ankur Jha</text>
+  <text x="90" y="165" class="subtitle">SaaS Builder • Backend Architect • Creator</text>
+  
+  <!-- Neon Accent Line -->
+  <rect x="90" y="195" width="60" height="4" rx="2" fill="#2563EB" filter="url(#glow)">
+    <animate attributeName="width" values="40;80;40" dur="4s" repeatCount="indefinite" />
+  </rect>
+
+  <g transform="translate(620, 100)">
+    <path d="M20 0 L40 20 L20 40 L0 20 Z" fill="rgba(37, 99, 235, 0.2)" stroke="#2563EB" stroke-width="2">
+      <animateTransform attributeName="transform" type="rotate" from="0 20 20" to="360 20 20" dur="10s" repeatCount="indefinite" />
+    </path>
+  </g>
+</svg>
