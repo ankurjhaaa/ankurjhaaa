@@ -20,7 +20,7 @@
   <a href="mailto:contact@ankurjha.me"><img src="https://img.shields.io/badge/Email-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 <p align="center">
-  <img src="https://profile-counter.glitch.me/ankurjhaaa/bg_0F172A/txt_FFFFFF/count.svg" alt="Visitor Count" />
+  <img src="https://komarev.com/ghpvc/?username=ankurjhaaa&label=Visitors&color=0e75b6&style=flat" alt="Visitor Count" />
 </p>
 
 <!-- 43. Custom SVG Divider -->
@@ -146,9 +146,9 @@
 
 <p align="center">
   <!-- 10. Stats -->
-  <img src="https://github-readme-stats.vercel.app/api?username=ankurjhaaa&show_icons=true&theme=nord&bg_color=0F172A&text_color=FFFFFF&icon_color=2563EB&title_color=2563EB&hide_border=true" height="195" alt="GitHub Stats" />
+  <img src="assets/github-stats.svg" width="430" alt="GitHub Stats" />
   <!-- 12. Top Languages -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ankurjhaaa&layout=compact&theme=nord&bg_color=0F172A&text_color=FFFFFF&title_color=2563EB&hide_border=true" height="195" alt="Top Languages" />
+  <img src="assets/top-languages.svg" width="430" alt="Top Languages" />
 </p>
 
 <p align="center">
@@ -158,7 +158,7 @@
 
 <p align="center">
   <!-- 15. GitHub Trophies -->
-  <img src="https://github-profile-trophy.vercel.app/?username=ankurjhaaa&theme=nord&bg_color=0F172A&text_color=FFFFFF&margin-w=15&no-frame=true" alt="Trophies" />
+  <img src="assets/achievements.svg" width="640" alt="Achievements" />
 </p>
 
 <p align="center">

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="220" viewBox="0 0 430 220" role="img" aria-label="Top languages card">
+  <rect width="430" height="220" rx="18" fill="#0F172A"/>
+  <rect x="1" y="1" width="428" height="218" rx="17" fill="none" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="32" y="48" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Top Languages</text>
+  <text x="32" y="76" fill="#93C5FD" font-family="Segoe UI, Arial, sans-serif" font-size="13">Most active stacks</text>
+
+  <rect x="32" y="102" width="366" height="84" rx="14" fill="#111827" stroke="#1E3A8A"/>
+  <text x="52" y="132" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">JavaScript • PHP • Blade</text>
+  <text x="52" y="158" fill="#93C5FD" font-family="Segoe UI, Arial, sans-serif" font-size="14">15 repos • 14 repos • 8 repos</text>
+  <text x="52" y="178" fill="#93C5FD" font-family="Segoe UI, Arial, sans-serif" font-size="13">Plus HTML, TypeScript, C++ and Dart</text>
+</svg>

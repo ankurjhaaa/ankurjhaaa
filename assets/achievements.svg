@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="180" viewBox="0 0 640 180" role="img" aria-label="Achievements card">
+  <rect width="640" height="180" rx="18" fill="#0F172A"/>
+  <rect x="1" y="1" width="638" height="178" rx="17" fill="none" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="32" y="46" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Achievements</text>
+  <text x="32" y="72" fill="#93C5FD" font-family="Segoe UI, Arial, sans-serif" font-size="13">A few highlights from the current profile</text>
+
+  <rect x="32" y="94" width="180" height="54" rx="12" fill="#111827" stroke="#1E3A8A"/>
+  <text x="52" y="118" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">⚡ Active builder</text>
+  <text x="52" y="136" fill="#93C5FD" font-family="Segoe UI, Arial, sans-serif" font-size="12">54 public repositories</text>
+
+  <rect x="230" y="94" width="180" height="54" rx="12" fill="#111827" stroke="#1E3A8A"/>
+  <text x="250" y="118" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">🧱 Backend-first</text>
+  <text x="250" y="136" fill="#93C5FD" font-family="Segoe UI, Arial, sans-serif" font-size="12">Laravel, PHP and APIs</text>
+
+  <rect x="428" y="94" width="180" height="54" rx="12" fill="#111827" stroke="#1E3A8A"/>
+  <text x="448" y="118" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">🚀 SaaS mindset</text>
+  <text x="448" y="136" fill="#93C5FD" font-family="Segoe UI, Arial, sans-serif" font-size="12">Architecture + products</text>
+</svg>
